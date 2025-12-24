@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(circle at top, #0b1d2a, #02050a 70%);
+  font-family: system-ui, "Segoe UI", sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+.ui {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0.75;
+}
